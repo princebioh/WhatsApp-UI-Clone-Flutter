@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'pages/homepage.dart';
 
-
 void main(List<String> args) {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -12,6 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomePage(),);
+    return MaterialApp(
+      home: HomePage(),
+  
+    );
   }
 }
