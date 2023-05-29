@@ -1,0 +1,92 @@
+final Map jsonData = {
+    1: {
+      "pic": "assets/images/davies.jpg",
+      "title": "Davies",
+      "subtitle": "random text",
+      "trailing": "today",
+    },
+    2: {
+      "pic": "assets/images/calvin.jpg",
+      "title": "Calvin",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    3: {
+      "pic": "assets/images/collins.jpg",
+      "title": "Coliins",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    4: {
+      "pic": "assets/images/sly.jpg",
+      "title": "Sly",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    5: {
+      "pic": "assets/images/vivian.jpg",
+      "title": "Vivian",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    6: {
+      "pic": "assets/images/prince.jpg",
+      "title": "Prince",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    7: {
+      "pic": "assets/images/davies.jpg",
+      "title": "Davies",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    8: {
+      "pic": "assets/images/collins.jpg",
+      "title": "Collins",
+      "subtitle": "randome text",
+      "trailing": "yesterday",
+    },
+    9: {
+      "pic": "assets/images/vivian.jpg",
+      "title": "Vivian",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    10: {
+      "pic": "assets/images/calvin.jpg",
+      "title": "Calvin",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    11: {
+      "pic": "assets/images/prince.jpg",
+      "title": "Prince",
+      "subtitle": "random text",
+      "trailing": "yesterday",
+    },
+    12: {
+      "pic": "assets/images/davies.jpg",
+      "title": "Davies",
+      "subtitle": "randome text",
+      "trailing": "yesterday",
+    },
+    13: {
+      "pic": "assets/images/sly.jpg",
+      "title": "Sly",
+      "subtitle": "randome text",
+      "trailing": "yesterday",
+    },
+    14: {
+      "pic": "assets/images/calvin.jpg",
+      "title": "Calvin",
+      "subtitle": "randome text",
+      "trailing": "yesterday",
+    },
+    15: {
+      "pic": "assets/images/davies.jpg",
+      "title": "Davies",
+      "subtitle": "randome text",
+      "trailing": "yesterday",
+    },
+  };

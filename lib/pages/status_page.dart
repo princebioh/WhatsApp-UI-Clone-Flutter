@@ -34,9 +34,54 @@ class StatusPage extends StatelessWidget {
           ),
         ],
       ),
-      body: ListView.builder(
-        itemBuilder: (context, index) {},
-        itemCount: 10,
+      body: ListView(
+        children: [
+          const SizedBox(
+            height: 5,
+          ),
+          // Add Status Widget
+          ListTile(
+            // Image with Plus Icon
+            leading: Container(
+              width: 50,
+              child: Stack(
+                children: [
+                  const CircleAvatar(
+                    backgroundImage: AssetImage("assets/images/prince.jpg"),
+                  ),
+                  // Plus Icon
+                  Positioned(
+                    top: 18,
+                    left: 25,
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.white,
+                        shape: BoxShape.circle,
+                      ),
+                      child: Icon(
+                        Icons.add_circle,
+                        color: DefaultColors.primaryColor,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            title: const Text("My status"),
+            subtitle: const Text("Tap to add status update"),
+            onTap: () {},
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+          const Padding(
+            padding: EdgeInsets.only(left: 15),
+            child: Text("Recent updates"),
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+        ],
       ),
     );
   }

@@ -36,7 +36,11 @@ class _HomePageState extends State<HomePage> {
               tooltip: "Search",
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                // Navigator.of(context).push(
+                //   MaterialPageRoute(builder: (context) => MoreOptions()),
+                // );
+              },
               icon: const Icon(Icons.more_vert),
               splashRadius: 25,
               tooltip: "More options",
