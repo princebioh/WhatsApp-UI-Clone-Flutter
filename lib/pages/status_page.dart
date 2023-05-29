@@ -76,7 +76,7 @@ class StatusPage extends StatelessWidget {
           ),
           const Padding(
             padding: EdgeInsets.only(left: 15),
-            child: Text("Recent updates"),
+            child: Text("Recent Updates"),
           ),
           const SizedBox(
             height: 10,
